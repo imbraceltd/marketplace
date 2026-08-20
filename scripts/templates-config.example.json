@@ -1,0 +1,64 @@
+{
+  "templates": [
+    {
+      "name": "Customer Support Board",
+      "id": "brd_3e9af11a-be05-49aa-b29d-78d900d6a351",
+      "type": "data_board",
+      "description": "Template for customer support tracking with tickets, status, and priorities"
+    },
+    {
+      "name": "Sales Pipeline Board",
+      "id": "brd_987zyx654",
+      "type": "data_board",
+      "description": "Manage sales opportunities and track deal progress"
+    },
+    {
+      "name": "Lead Qualification Workflow",
+      "id": "12345",
+      "type": "workflow",
+      "description": "Automated workflow to qualify and route incoming leads (numeric ID)"
+    },
+    {
+      "name": "Email Automation Workflow",
+      "id": "wf_456def789",
+      "type": "workflow",
+      "description": "Automated email campaigns and follow-ups (AP Workflow - non-numeric ID)"
+    },
+    {
+      "name": "Customer Support Assistant",
+      "id": "assistant_789abc",
+      "type": "ai_assistant",
+      "description": "AI assistant to help with customer support inquiries and ticket creation"
+    },
+    {
+      "name": "Sales Assistant",
+      "id": "assistant_sales001",
+      "type": "ai_assistant",
+      "description": "AI assistant to help sales team with lead qualification and follow-ups"
+    },
+    {
+      "name": "Web Chat Channel",
+      "id": "ch_1bb3ae23-fa5b-47aa-b127-c09f43d915d7",
+      "type": "channel",
+      "description": "Web-based chat channel for customer engagement"
+    },
+    {
+      "name": "Mobile Chat Channel",
+      "id": "ch_mobile123",
+      "type": "channel",
+      "description": "Mobile-optimized chat channel"
+    },
+    {
+      "name": "Lead Generation Use Case",
+      "id": "uc_d353cf30-97da-4a9c-91e6-43a388349f30",
+      "type": "use_case",
+      "description": "Complete lead generation solution with forms, qualification, and routing"
+    },
+    {
+      "name": "Customer Onboarding Use Case",
+      "id": "uc_onboard456",
+      "type": "use_case",
+      "description": "End-to-end customer onboarding workflow with automated tasks"
+    }
+  ]
+}

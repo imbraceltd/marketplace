@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1772348488171,
+      "tag": "0000_early_zodiak",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1778135699937,
+      "tag": "0001_groovy_stature",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1778516009343,
+      "tag": "0002_odd_cloak",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1778650792370,
+      "tag": "0004_steady_radioactive_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1778662878931,
+      "tag": "0005_add_usecases_media",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1778662878933,
+      "tag": "0007_add_usecases_is_team_default_agent",
+      "breakpoints": true
+    }
+  ]
+}

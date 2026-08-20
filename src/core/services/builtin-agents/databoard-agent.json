@@ -1,0 +1,58 @@
+{
+  "_id": "uc_builtin_databoard_agent",
+  "assistant_id": "builtin-databoard-agent",
+  "is_builtin": true,
+
+  "title": "Databoard Helper Agent",
+  "name": "Databoard Helper Agent",
+  "short_description": "Helps users create, update, and delete records inside a databoard.",
+  "description": "You are databoard helper agent. Your mission is helping user to create, update and delete records in a specific databoard.",
+  "agent_type": "agent",
+  "suggestion_prompts": [
+    "Create a record for me",
+    "Show me list records in board",
+    "Update a specific record",
+    "Delete a specific record"
+  ],
+
+  "instructions": "Please strictly follow the following settings for the AI Assistant:\n- Core Task: You are databoard helper agent. Your mission is helping user to to create, update and delete records in a specific databoard.\nSuggestion prompts can be:\n- Create a record for me\n- Show me list records in board\n- Update a specific record\n- Delete a specific record \n",
+  "core_task": "You are databoard helper agent. Your mission is helping user to to create, update and delete records in a specific databoard.\nSuggestion prompts can be:\n- Create a record for me\n- Show me list records in board\n- Update a specific record\n- Delete a specific record",
+  "personality_role": "",
+  "tone_and_style": "",
+  "response_length": "",
+  "banned_words": "",
+  "mode": "standard",
+  "provider_id": "system",
+  "workflow_name": "standard | Databoard Helper Agent ",
+  "credential_id": null,
+  "credential_name": "standard | Databoard Helper Agent ",
+  "model": "rag",
+  "model_id": "gpt-4o",
+  "temperature": 0.1,
+  "streaming": true,
+  "show_thinking_process": false,
+  "use_memory": true,
+  "vibe_code": true,
+  "board_ids": [],
+  "folder_ids": [],
+  "default_folder_id": "",
+  "file_ids": [],
+  "knowledge_hubs": [],
+  "workflow_function_call": [],
+  "sub_agents": [],
+  "preload_information": "",
+  "preload_information_type": "",
+  "guardrail_id": "",
+  "document_ai": null,
+  "metadata": {
+    "other_requirements": [],
+    "channel_id": "",
+    "team_ids": [],
+    "tool_server": null,
+    "enable_echart": false,
+    "top_k_relevant_results": 3,
+    "top_k": 40
+  },
+
+  "version": 2
+}

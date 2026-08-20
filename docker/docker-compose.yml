@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+    mongo:
+        image: mongo:latest
+        ports:
+            - '27017:27017'
+        environment:
+            # Role
+            MONGO_INITDB_DATABASE: marketplaces
+            MONGO_INTDB_ROLE: readWrite

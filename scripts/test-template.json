@@ -1,0 +1,18 @@
+{
+  "graph": {
+    "nodes": [
+      {
+        "id": "board_1",
+        "type": "data_board",
+        "data": {
+          "name": "Test Board",
+          "description": "A test board for template installation"
+        }
+      }
+    ],
+    "edges": []
+  },
+  "deps": {
+    "boards": ["board_1"]
+  }
+}

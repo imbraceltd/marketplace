@@ -1,0 +1,1 @@
+ALTER TABLE "templates" ADD COLUMN "zip_s3_key" text;
